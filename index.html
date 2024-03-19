@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Is it a Palindrome?</h1>
+
+      <div class="palindrome-div">
+        <label for="text-input">Enter text to check for a palindrome: </label>
+        <input type="text" id="text-input" class="palindrome-input" />
+        <button class="palindrome-btn" id="check-btn">Check</button>
+        <div class="results-div" id="result">
+          <p class="user-input"></p>
+        </div>
+      </div>
+
+      <div class="palindrome-definition-div">
+        <p class="palindrome-definition">
+          A "<dfn>palindrome</dfn>" is a word or sentence that is spelled the
+          same way both forward and backward, ignoring puncuation, case, and
+          spacing.
+        </p>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
